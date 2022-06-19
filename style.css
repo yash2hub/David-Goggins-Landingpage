@@ -1,0 +1,30 @@
+#header{background-color: bisque;
+    height: 100px;}
+
+.container {background-color: #5DA3FA;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 20px;
+
+}
+
+.navbox {display: flex;
+    margin: auto;}
+
+.nav {display: block;
+    width: 1000px;
+    margin-left: 90px;
+    word-spacing: 20px;
+
+
+}
+
+.link-font {
+    font-size: 20px;
+}
+#pg-banner {
+    background-image: url(https://davidgoggins.com/wp-content/uploads/2018/08/book_banner-1507x300.jpg);
+    padding-top: 35px;
+    background-color: #000 ;
+    background-position: right;
+}
