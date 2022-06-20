@@ -19,13 +19,14 @@
 .nav {
     display: block;
     width: 1000px;
-    margin-left: 0px;
     word-spacing: -10px;
     font-family: 'Bebas Neue', cursive;
-    margin-left: 20%;
+    margin-left: 5%;
 
+}
 
-
+.nav a{
+    color: black;
 }
 
 .link-font {
@@ -73,3 +74,69 @@ h2 {
 p {
     font-size: 20px ;
 }
+.foot-nav {
+    transform: uppercase;
+}
+
+#footer
+{
+    background: #000;
+    overflow: hidden;
+}
+.foot-nav {
+        display: block;
+        font-size: 25px;
+        margin-left: 0px;
+        word-spacing: 70px;
+        font-family: 'Bebas Neue', cursive;
+        margin-bottom: 5%;
+        padding-top: 5px;
+
+}
+
+.foot-nav a{
+    color: antiquewhite;
+}
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 420px)
+    {
+        #header {
+        }
+
+        .container {
+            width: auto;
+            padding-top: 0px;
+            margin: 10px;
+        }  
+
+        .navbox {
+            display: inline;
+            
+        }
+
+        .nav {
+            display:block;
+            width: auto;
+            word-spacing: 0px;
+            font-family: 'Bebas Neue', cursive;
+            overflow:auto;
+            margin-left: -15%;
+
+        }
+        .link-font {
+            font-size: 20px;
+            padding-right: 5%; }
+
+        .logo {
+            height: 35px;
+            width: 80%;
+        }
+        .h2 {
+            margin-top: 10px;
+        }
+    }
